@@ -1,0 +1,51 @@
+# GitHub Pages project site: https://57cx.github.io/aesthetics-daily/
+# Deploy from branch main / (root). Do not add a .nojekyll file.
+title: 审美日课
+tagline: 一天一篇，把眼睛慢慢养好。
+description: 写给零基础的审美练习。一天一篇，用大白话看留白、光影和构图，再带到画里和生活里。
+url: https://57cx.github.io
+baseurl: /aesthetics-daily
+lang: zh_CN
+timezone: Asia/Shanghai
+repository: 57cx/aesthetics-daily
+
+# github-pages defaults to the Primer theme. null keeps our own layouts.
+theme: null
+markdown: kramdown
+future: false
+permalink: pretty
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: article
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
+
+exclude:
+  - README.md
+  - WRITING_GUIDE.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - .bundle/
+  - .sass-cache/
+  - .jekyll-cache/
+  - .jekyll-metadata
+  - node_modules/
+  - gemfiles/
+  - .gitignore

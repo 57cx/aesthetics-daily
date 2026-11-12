@@ -1,0 +1,72 @@
+---
+layout: default
+---
+{% assign cat_name = page.category | default: page.categories.first %}
+{% assign cat_slug = '' %}
+{% for cat in site.data.categories %}
+  {% if cat.name == cat_name %}
+    {% assign cat_slug = cat.slug %}
+  {% endif %}
+{% endfor %}
+{% assign curr = page.day | plus: 0 %}
+{% assign prev_day = curr | minus: 1 %}
+{% assign next_day = curr | plus: 1 %}
+{% assign prev_item = site.data.curriculum | where: "day", prev_day | first %}
+{% assign next_item = site.data.curriculum | where: "day", next_day | first %}
+{% assign prev_post = site.posts | where: "day", prev_day | first %}
+{% assign next_post = site.posts | where: "day", next_day | first %}
+
+<article class="article">
+  <header class="article-head">
+    <p class="kicker">
+      {% if cat_slug != '' %}
+        <a href="{{ '/categories/' | append: cat_slug | append: '/' | relative_url }}">{{ cat_name }}</a>
+      {% else %}
+        {{ cat_name }}
+      {% endif %}
+      <span aria-hidden="true"> · </span>
+      第 {{ page.day }} 日
+      {% if page.topic %}
+        <span aria-hidden="true"> · </span>
+        {{ page.topic }}
+      {% endif %}
+    </p>
+    <h1>{{ page.title }}</h1>
+    {% if page.description %}
+      <p class="deck">{{ page.description }}</p>
+    {% endif %}
+  </header>
+  <div class="article-body">
+    {{ content }}
+  </div>
+  <nav class="pager" aria-label="前后日">
+    {% if prev_post %}
+      <a class="pager-prev" href="{{ prev_post.url | relative_url }}">
+        <span class="dir">上一日</span>
+        <strong>{{ prev_post.title }}</strong>
+      </a>
+    {% elsif prev_item %}
+      {% assign prev_anchor = prev_item.day %}
+      {% if prev_item.day < 10 %}{% assign prev_anchor = prev_item.day | prepend: '0' %}{% endif %}
+      <a class="pager-prev" href="{{ '/curriculum/#day-' | append: prev_anchor | relative_url }}">
+        <span class="dir">上一日 · 尚未发布</span>
+        <strong>{{ prev_item.title }}</strong>
+      </a>
+    {% else %}
+      <span></span>
+    {% endif %}
+    {% if next_post %}
+      <a class="pager-next" href="{{ next_post.url | relative_url }}">
+        <span class="dir">下一日</span>
+        <strong>{{ next_post.title }}</strong>
+      </a>
+    {% elsif next_item %}
+      {% assign next_anchor = next_item.day %}
+      {% if next_item.day < 10 %}{% assign next_anchor = next_item.day | prepend: '0' %}{% endif %}
+      <a class="pager-next" href="{{ '/curriculum/#day-' | append: next_anchor | relative_url }}">
+        <span class="dir">下一日 · 尚未发布</span>
+        <strong>{{ next_item.title }}</strong>
+      </a>
+    {% endif %}
+  </nav>
+</article>

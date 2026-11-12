@@ -1,0 +1,75 @@
+---
+layout: default
+title: 审美日课
+description: 写给零基础的审美练习。一天一篇，用大白话看留白、光影和构图，再带到画里和生活里。
+image: /assets/images/day-01/ma-yuan-watching-deer.jpg
+---
+<div class="home">
+  <div class="home-intro">
+    <p class="eyebrow">零基础 · 一天一篇</p>
+    <h1>把眼睛慢慢养好</h1>
+    <p class="lede">写给还没学过美术的人。不背名词，也不考试。每篇大约看五到十分钟，只办一件事：让你以后看画、看房间、看衣服，能说出这里为什么舒服，那里为什么累。</p>
+    <p>已经写好的，从新到旧排在下面。三十天最好顺着走，前面的日子是后面的底子。</p>
+  </div>
+
+  {% if site.posts.size > 0 %}
+    {% assign latest = site.posts.first %}
+    {% assign cat_name = latest.category | default: latest.categories.first %}
+    <article class="feature">
+      {% if latest.image %}
+        <a href="{{ latest.url | relative_url }}">
+          <img
+            src="{{ latest.image | relative_url }}"
+            alt="{{ latest.image_alt | default: latest.title }}"
+            {% if latest.image_width %}width="{{ latest.image_width }}"{% endif %}
+            {% if latest.image_height %}height="{{ latest.image_height }}"{% endif %}
+          >
+        </a>
+      {% endif %}
+      <div class="feature-copy">
+        <p class="kicker">最新 · 第 {{ latest.day }} 日{% if cat_name %} · {{ cat_name }}{% endif %}</p>
+        <h2><a href="{{ latest.url | relative_url }}">{{ latest.title }}</a></h2>
+        {% if latest.description %}<p>{{ latest.description }}</p>{% endif %}
+        <a class="feature-link" href="{{ latest.url | relative_url }}">读这一篇</a>
+      </div>
+    </article>
+
+    {% if site.posts.size > 1 %}
+      <div class="more-entries">
+        <h2 class="section-label">更早的</h2>
+        <ul class="entry-list">
+          {% for post in site.posts offset: 1 %}
+            {% assign post_cat = post.category | default: post.categories.first %}
+            <li>
+              <article class="entry">
+                <p class="kicker">第 {{ post.day }} 日{% if post_cat %} · {{ post_cat }}{% endif %}</p>
+                <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+                {% if post.description %}<p>{{ post.description }}</p>{% endif %}
+              </article>
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    {% endif %}
+  {% else %}
+    <div class="home-intro">
+      <p>第一篇还在写。可以先看三十日课，知道路往哪边走。</p>
+    </div>
+  {% endif %}
+
+  <section class="paths" aria-labelledby="paths-title">
+    <h2 id="paths-title">四条路</h2>
+    <ul class="path-list">
+      {% for cat in site.data.categories %}
+        {% assign cat_url = '/categories/' | append: cat.slug | append: '/' %}
+        {% assign all = site.data.curriculum | where: "category", cat.name %}
+        {% assign done = all | where: "published", true %}
+        <li class="path">
+          <a href="{{ cat_url | relative_url }}">{{ cat.name }}</a>
+          <span class="path-count">{{ done.size }} / {{ all.size }}</span>
+          <p>{{ cat.blurb }}</p>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
+</div>
