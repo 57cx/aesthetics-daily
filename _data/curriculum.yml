@@ -1,0 +1,214 @@
+# 三十日课。按 day 顺序学，不要跳着改次序。
+# published: true 的那一天，必须已经有对应的 _posts 文章。
+# 字段：day, title, category, topic, examples, published, date（仅已发布）
+-
+  day: 1
+  title: "留白：空出来的地方，也在说话"
+  category: 基础理论
+  topic: 留白
+  examples: "马远《松荫观鹿图》、马远《月下把杯图》、马麟《坐看云起图》（克利夫兰艺术博物馆，藏品页标注 Public Domain，开放获取为 CC0）"
+  published: true
+  date: 2026-11-12
+-
+  day: 2
+  title: "重心：画面靠哪一边站着"
+  category: 基础理论
+  topic: 构图与比例
+  examples: "用一张重心明确的公有领域绘画，配本站简图，讲东西靠拢之后画面靠哪里站稳。可从克利夫兰或大都会的开放图像里找静物或山水。"
+  published: false
+-
+  day: 3
+  title: "范宽：一座山，把整张纸压住"
+  category: 艺术史入门
+  topic: 全景山水
+  examples: "范宽《溪山行旅图》。优先使用台北故宫开放数据里许可清楚的图像；若照片许可不明，改用馆藏 CC0、构图同样很满的北宋山水，并在文中说明换了哪一张。用满，回头看第一日的空。"
+  published: false
+-
+  day: 4
+  title: "光影：光一来，东西才有体积"
+  category: 基础理论
+  topic: 光影
+  examples: "一幅光从一侧来的公有领域绘画（如伦勃朗、卡拉瓦乔，须核对照片许可），讲受光、背光和影子怎样把平面变成体积。"
+  published: false
+-
+  day: 5
+  title: "拍照：先给画面留一口气"
+  category: 生活美学
+  topic: 摄影里的留白
+  examples: "把第一日的留白用进手机取景。配一张公有领域风景或静物摄影，再用简图讲裁进框里的空。不点评别人的私人照片。"
+  published: false
+-
+  day: 6
+  title: "冷暖：颜色不用多，也能分开"
+  category: 基础理论
+  topic: 色彩的冷暖
+  examples: "一幅冷暖分明、照片为 CC0 或公有领域的绘画。少谈色环名词，只讲暖的往前、冷的往后。"
+  published: false
+-
+  day: 7
+  title: "维米尔：窗边为什么那么静"
+  category: 艺术史入门
+  topic: 窗光与安静
+  examples: "维米尔的一件作品，优先荷兰国立博物馆开放图像，许可必须在藏品页核对。只讲这一件：窗光、少数人、安静从哪里来。"
+  published: false
+-
+  day: 8
+  title: "桌面：少放一件，房间就松了"
+  category: 生活美学
+  topic: 家居里的留白
+  examples: "把留白用到桌面。用本站前后示意，必要时配一件 CC0 的器物照片。不拍摄、不评价真实住家。"
+  published: false
+-
+  day: 9
+  title: "节奏：重复一下，再停一下"
+  category: 基础理论
+  topic: 节奏
+  examples: "一幅有重复点景的公有领域绘画，或一片栏杆、纹样的开放图像。讲重复、变化、停顿，配简图。"
+  published: false
+-
+  day: 10
+  title: "宋瓷：一只碗的釉，就是花纹"
+  category: 艺术史入门
+  topic: 宋瓷的釉色
+  examples: "一只宋瓷碗或盏，用大都会、克利夫兰或其他 CC0 馆藏。讲釉色和轮廓，不讲鉴定口诀。"
+  published: false
+-
+  day: 11
+  title: "十分钟：对着一幅画只问五个问题"
+  category: 赏析练习
+  topic: 长时间观看
+  examples: "选一幅已经能合法展示、信息又不太挤的画，最好是读者还没在前面看厌的一张。五个问题都从已经学过的留白、重心、光里长出来。"
+  published: false
+-
+  day: 12
+  title: "材质：丝、纸、石头，看起来不一样"
+  category: 基础理论
+  topic: 材质
+  examples: "对比一件绢本和一件纸本（都须开放许可），再说到器物表面。让读者看出底子本身也在说话。"
+  published: false
+-
+  day: 13
+  title: "比例：衣服先把高矮分对"
+  category: 生活美学
+  topic: 穿搭的比例
+  examples: "用本站简图讲腰线、衣长和留白。不使用真人街拍，不评价任何人的穿着。"
+  published: false
+-
+  day: 14
+  title: "园林：借来的那一角天空"
+  category: 艺术史入门
+  topic: 园林的借景
+  examples: "一幅园林绘画或版画，须为 CC0 或公有领域。用留白回看园里的空地、墙和借来的远处。"
+  published: false
+-
+  day: 15
+  title: "海报：格子里面也要能喘气"
+  category: 生活美学
+  topic: 平面里的网格与呼吸
+  examples: "一张许可清楚的历史海报或书页，配网格简图。讲对齐和留白，不讲软件操作。"
+  published: false
+-
+  day: 16
+  title: "帕特农：比例怎样让石头安静"
+  category: 艺术史入门
+  topic: 建筑比例
+  examples: "帕特农神庙的十九世纪公有领域摄影或版画。只讲柱子、间距和整体比例，不展开建筑史。"
+  published: false
+-
+  day: 17
+  title: "找光：在一幅画里指出三处光"
+  category: 赏析练习
+  topic: 在画中找光
+  examples: "一幅光感清楚、开放许可的绘画。练习只要求指出三处光和一处影子，不引入新概念。"
+  published: false
+-
+  day: 18
+  title: "主次：谁大声，谁小声"
+  category: 基础理论
+  topic: 主次
+  examples: "回看马远：人很小，松很大。再配一张主次含糊的本站示意，讲大小和轻重，而不是讲谁更重要的人生道理。"
+  published: false
+-
+  day: 19
+  title: "倪瓒：疏到几乎没有东西"
+  category: 艺术史入门
+  topic: 疏体山水
+  examples: "倪瓒一件疏朗的纸本，优先克利夫兰或大都会的 CC0 藏品。讲少到什么程度仍然站得住，接上第一日的留白。"
+  published: false
+-
+  day: 20
+  title: "窗光：给一张脸留一面光"
+  category: 生活美学
+  topic: 自然光人像
+  examples: "一张十九世纪公有领域肖像摄影，窗光只从一侧来。讲光，不讲磨皮和滤镜。"
+  published: false
+-
+  day: 21
+  title: "对比：靠一点差别把眼睛叫醒"
+  category: 基础理论
+  topic: 对比
+  examples: "深浅、大小、疏密三组本站简图，再配一幅对比清楚的开放许可绘画。差别只要够用，不必喊得最大声。"
+  published: false
+-
+  day: 22
+  title: "包豪斯：好用和好看是一件事"
+  category: 艺术史入门
+  topic: 功能与形式
+  examples: "一件能合法使用图像的包豪斯设计。作者若未过版权保护期，或馆藏照片不是 CC0 / 公有领域，就改用许可清楚的例子讲同一件事（如震教家具，或十九世纪工具与建筑照片），并改写本条 examples。题目保持功能与形式。"
+  published: false
+-
+  day: 23
+  title: "相处：木头、布和陶放在一起"
+  category: 生活美学
+  topic: 家居材质的搭配
+  examples: "两三件 CC0 器物或纺织品照片，讲邻近的材质怎样相处。不拍私人住宅。"
+  published: false
+-
+  day: 24
+  title: "空气：颜色怎样把远处推远"
+  category: 艺术史入门
+  topic: 颜色与空气
+  examples: "优先透纳或柯罗的 CC0 风景。若《印象·日出》一类莫奈作品的照片确为公有领域或 CC0，也可以用。讲颜色怎样把远处推远，不讲画派名单。"
+  published: false
+-
+  day: 25
+  title: "并置：同一个题目，两种秩序"
+  category: 赏析练习
+  topic: 两件作品对照着看
+  examples: "两幅都能合法展示的画，题目相近，一张较满，一张较疏。问题只引导读者比较秩序，不分高下。"
+  published: false
+-
+  day: 26
+  title: "裁切：边框决定你让人看什么"
+  category: 基础理论
+  topic: 边框与裁切
+  examples: "用一幅公有领域作品做两种裁切示意，并写明这是教学裁切，不是原作全貌。讲边框保留了什么、切掉了什么。"
+  published: false
+-
+  day: 27
+  title: "层级：标题大声，正文小声"
+  category: 生活美学
+  topic: 版面层级
+  examples: "一张许可清楚的历史海报或书名页。讲标题、正文、留白三级，接上一日的边框和前面的主次。"
+  published: false
+-
+  day: 28
+  title: "青铜爵：形制里面的分寸"
+  category: 艺术史入门
+  topic: 青铜器的形制
+  examples: "一只商或西周青铜爵，用大都会、弗利尔或其他 CC0 馆藏。讲口、流、鋬和三足的关系，不讲铭文释读。"
+  published: false
+-
+  day: 29
+  title: "重复：让一种颜色出现两次"
+  category: 生活美学
+  topic: 穿搭里的重复
+  examples: "用本站简图讲一种颜色出现两次，第三次就收住。不使用真人照片，不评价穿着。"
+  published: false
+-
+  day: 30
+  title: "串起来：用一张画把留白、光和比例说完"
+  category: 赏析练习
+  topic: 综合赏析
+  examples: "选一幅信息够用、开放许可、前面没有细讲过的画。问题依次问留白、光和比例，让读者把三十日收成一次观看。"
+  published: false

@@ -1,0 +1,21 @@
+<a class="skip" href="#main">跳到正文</a>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="{{ '/' | relative_url }}">
+      <span class="seal" aria-hidden="true"></span>
+      <span class="brand-text">
+        <span class="brand-name">{{ site.title }}</span>
+        <span class="brand-tag">一天一篇</span>
+      </span>
+    </a>
+    <nav class="site-nav" aria-label="站点">
+      <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} aria-current="page"{% endif %}>首页</a>
+      {% for cat in site.data.categories %}
+        {% assign cat_url = '/categories/' | append: cat.slug | append: '/' %}
+        <a href="{{ cat_url | relative_url }}"{% if page.url == cat_url %} aria-current="page"{% endif %}>{{ cat.name }}</a>
+      {% endfor %}
+      <a href="{{ '/curriculum/' | relative_url }}"{% if page.url == '/curriculum/' %} aria-current="page"{% endif %}>三十日课</a>
+      <a href="{{ '/about/' | relative_url }}"{% if page.url == '/about/' %} aria-current="page"{% endif %}>关于</a>
+    </nav>
+  </div>
+</header>

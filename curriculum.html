@@ -1,0 +1,56 @@
+---
+layout: default
+title: 三十日课
+permalink: /curriculum/
+description: 三十天的次序、题目，以及哪些已经写好。最好从第一日顺着看。
+---
+<article>
+  <header class="wrap curriculum-head">
+    <h1>三十日课</h1>
+    <p class="lede">一天一件小事。已经写好的可以直接读，还没写的先看着题目，知道路往哪边走。最好顺着来：先把留白、重心和光看熟，再认识具体的人和作品，再带回拍照、穿衣和房间里。</p>
+    {% assign published_days = site.data.curriculum | where: "published", true %}
+    <p class="progress">已发布 {{ published_days.size }} / {{ site.data.curriculum.size }}</p>
+  </header>
+</article>
+
+<ol class="day-list wrap">
+  {% for item in site.data.curriculum %}
+    {% assign anchor = item.day %}
+    {% if item.day < 10 %}{% assign anchor = item.day | prepend: '0' %}{% endif %}
+    {% assign match = site.posts | where: "day", item.day | first %}
+    {% assign cat_slug = '' %}
+    {% for cat in site.data.categories %}
+      {% if cat.name == item.category %}
+        {% assign cat_slug = cat.slug %}
+      {% endif %}
+    {% endfor %}
+    <li class="day" id="day-{{ anchor }}">
+      <span class="day-num">{{ anchor }}</span>
+      <div class="day-top">
+        {% if cat_slug != '' %}
+          <a class="day-cat" href="{{ '/categories/' | append: cat_slug | append: '/' | relative_url }}">{{ item.category }}</a>
+        {% else %}
+          <span class="day-cat">{{ item.category }}</span>
+        {% endif %}
+        {% if item.published and match %}
+          <span class="status status-yes">已发布</span>
+        {% elsif item.published %}
+          <span class="status status-no">待补文</span>
+        {% else %}
+          <span class="status status-no">未发布</span>
+        {% endif %}
+      </div>
+      <div class="day-main">
+        <p class="day-title">
+          {% if item.published and match %}
+            <a href="{{ match.url | relative_url }}">{{ item.title }}</a>
+          {% else %}
+            {{ item.title }}
+          {% endif %}
+        </p>
+        <p class="day-topic">{{ item.topic }}</p>
+        <p class="day-examples">{{ item.examples }}</p>
+      </div>
+    </li>
+  {% endfor %}
+</ol>

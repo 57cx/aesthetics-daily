@@ -1,0 +1,65 @@
+---
+layout: default
+---
+{% assign cat_name = page.category %}
+<article class="category">
+  <header class="category-intro">
+    <p class="eyebrow">分类</p>
+    <h1>{{ page.title }}</h1>
+    <div class="prose">
+      {{ content }}
+    </div>
+  </header>
+
+  <div class="category-intro">
+    <h2>已经写好</h2>
+    {% assign count = 0 %}
+    <ul class="posted-list">
+      {% for post in site.posts %}
+        {% if post.categories contains cat_name or post.category == cat_name %}
+          {% assign count = count | plus: 1 %}
+          <li>
+            <p class="kicker">第 {{ post.day }} 日{% if post.topic %} · {{ post.topic }}{% endif %}</p>
+            <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+            {% if post.description %}<p>{{ post.description }}</p>{% endif %}
+          </li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+    {% if count == 0 %}
+      <p class="empty-note">这一类还没有写好的文章。课表已经排好了，会按日子一篇篇补上。</p>
+    {% endif %}
+
+    {% assign waiting = 0 %}
+    {% for item in site.data.curriculum %}
+      {% if item.published == false and item.category == cat_name %}
+        {% assign waiting = waiting | plus: 1 %}
+      {% endif %}
+    {% endfor %}
+    {% if waiting > 0 %}
+      <div class="upcoming">
+        <h2>还排在后面</h2>
+        <ol class="day-list">
+          {% for item in site.data.curriculum %}
+            {% if item.published == false and item.category == cat_name %}
+              {% assign anchor = item.day %}
+              {% if item.day < 10 %}{% assign anchor = item.day | prepend: '0' %}{% endif %}
+              <li class="day" id="day-{{ anchor }}">
+                <span class="day-num">{{ anchor }}</span>
+                <div class="day-top">
+                  <span class="day-cat">{{ item.category }}</span>
+                  <span class="status status-no">未发布</span>
+                </div>
+                <div class="day-main">
+                  <p class="day-title">{{ item.title }}</p>
+                  <p class="day-topic">{{ item.topic }}</p>
+                  <p class="day-examples">{{ item.examples }}</p>
+                </div>
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ol>
+      </div>
+    {% endif %}
+  </div>
+</article>
