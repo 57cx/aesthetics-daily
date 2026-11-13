@@ -1,17 +1,31 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
-  <title>Crowded arrangement</title>
+  <title>A flyer filled edge to edge with blocks</title>
   <rect width="640" height="640" fill="#f7f4ee"/>
-  <rect x="28" y="28" width="584" height="584" fill="none" stroke="#1e1b16" stroke-width="1.6"/>
-  <path d="M48 210 C70 70 160 46 250 58" fill="none" stroke="#1e1b16" stroke-width="3" stroke-linecap="round"/>
-  <path d="M90 160 C150 120 210 140 260 100" fill="none" stroke="#1e1b16" stroke-width="2" stroke-linecap="round"/>
-  <path d="M110 200 C170 170 230 190 280 150" fill="none" stroke="#1e1b16" stroke-width="1.8" stroke-linecap="round"/>
-  <path d="M80 220 C140 210 190 230 230 200" fill="none" stroke="#1e1b16" stroke-width="1.6" stroke-linecap="round"/>
-  <path d="M400 48 C520 70 590 130 604 230 C560 200 480 180 410 196 C400 120 392 80 400 48 Z" fill="none" stroke="#1e1b16" stroke-width="2.2" stroke-linejoin="round"/>
-  <path d="M250 300 c28 -64 18 -110 -12 -140" fill="none" stroke="#1e1b16" stroke-width="2.4" stroke-linecap="round"/>
-  <circle cx="232" cy="148" r="18" fill="none" stroke="#1e1b16" stroke-width="2.2"/>
-  <path d="M200 320 h70" fill="none" stroke="#1e1b16" stroke-width="2" stroke-linecap="round"/>
-  <path d="M300 340 C370 310 470 340 540 300 C580 380 500 450 410 456 C340 460 290 410 300 340 Z" fill="none" stroke="#1e1b16" stroke-width="2.2" stroke-linejoin="round"/>
-  <circle cx="130" cy="500" r="86" fill="none" stroke="#8d3b32" stroke-width="2.4"/>
-  <path d="M430 500 C510 470 590 510 604 590" fill="none" stroke="#1e1b16" stroke-width="2.6" stroke-linecap="round"/>
-  <path d="M460 530 C530 510 580 530 604 500" fill="none" stroke="#1e1b16" stroke-width="1.7" stroke-linecap="round"/>
+  <rect x="36" y="36" width="568" height="568" fill="none" stroke="#1e1b16" stroke-width="1.6"/>
+  <g fill="none" stroke="#1e1b16" stroke-width="2">
+    <rect x="58" y="58" width="160" height="150"/>
+    <rect x="240" y="58" width="160" height="150"/>
+    <rect x="422" y="58" width="160" height="150"/>
+    <rect x="58" y="230" width="160" height="150"/>
+    <rect x="240" y="230" width="160" height="150"/>
+    <rect x="422" y="230" width="160" height="150"/>
+    <rect x="58" y="402" width="250" height="70"/>
+    <rect x="330" y="402" width="252" height="70"/>
+    <rect x="58" y="494" width="160" height="86"/>
+    <rect x="240" y="494" width="160" height="86"/>
+    <rect x="422" y="494" width="160" height="86"/>
+  </g>
+  <g fill="#8d3b32">
+    <rect x="78" y="78" width="90" height="10"/>
+    <rect x="260" y="78" width="90" height="10"/>
+    <rect x="442" y="78" width="90" height="10"/>
+    <rect x="78" y="250" width="70" height="10"/>
+    <rect x="260" y="250" width="110" height="10"/>
+    <rect x="442" y="250" width="80" height="10"/>
+    <rect x="78" y="422" width="140" height="10"/>
+    <rect x="350" y="422" width="120" height="10"/>
+    <rect x="78" y="514" width="80" height="10"/>
+    <rect x="260" y="514" width="100" height="10"/>
+    <rect x="442" y="514" width="70" height="10"/>
+  </g>
 </svg>

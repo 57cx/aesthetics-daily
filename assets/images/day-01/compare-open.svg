@@ -1,13 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
-  <title>Open arrangement</title>
+  <title>A poster with one short title and lots of empty space</title>
   <rect width="640" height="640" fill="#f7f4ee"/>
-  <rect x="28" y="28" width="584" height="584" fill="none" stroke="#1e1b16" stroke-width="1.6"/>
-  <circle cx="170" cy="168" r="26" fill="none" stroke="#8d3b32" stroke-width="2.2"/>
-  <path d="M392 470 C450 448 530 468 575 520 C520 558 430 566 388 522 Z" fill="none" stroke="#1e1b16" stroke-width="2.2" stroke-linejoin="round"/>
-  <path d="M520 530 C492 430 468 330 438 230" fill="none" stroke="#1e1b16" stroke-width="2.8" stroke-linecap="round"/>
-  <path d="M468 310 C520 286 566 300 600 268" fill="none" stroke="#1e1b16" stroke-width="1.8" stroke-linecap="round"/>
-  <path d="M478 360 C528 344 570 356 604 328" fill="none" stroke="#1e1b16" stroke-width="1.6" stroke-linecap="round"/>
-  <path d="M490 420 C536 406 572 418 598 396" fill="none" stroke="#1e1b16" stroke-width="1.5" stroke-linecap="round"/>
-  <path d="M338 512 C352 478 392 474 408 508" fill="none" stroke="#1e1b16" stroke-width="2" stroke-linecap="round"/>
-  <circle cx="400" cy="468" r="6" fill="none" stroke="#1e1b16" stroke-width="1.8"/>
+  <rect x="36" y="36" width="568" height="568" fill="none" stroke="#1e1b16" stroke-width="1.6"/>
+  <rect x="392" y="456" width="148" height="16" fill="#1e1b16"/>
+  <rect x="392" y="486" width="84" height="8" fill="#8d3b32"/>
+  <circle cx="414" cy="400" r="18" fill="none" stroke="#1e1b16" stroke-width="2.2"/>
 </svg>
