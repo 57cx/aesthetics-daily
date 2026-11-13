@@ -1,17 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
-  <title>Equal weights set apart</title>
+  <title>Four similar shapes spread across the frame</title>
   <rect width="640" height="640" fill="#f7f4ee"/>
-  <rect x="28" y="28" width="584" height="584" fill="none" stroke="#1e1b16" stroke-width="1.6"/>
-  <path d="M64 456 H580" fill="none" stroke="#1e1b16" stroke-width="1.6"/>
-  <path d="M64 384 C84 456 188 456 208 384" fill="none" stroke="#1e1b16" stroke-width="2.2" stroke-linecap="round"/>
-  <ellipse cx="136" cy="382" rx="74" ry="20" fill="none" stroke="#1e1b16" stroke-width="2.2"/>
-  <path d="M86 390 C110 408 162 408 186 390" fill="none" stroke="#1e1b16" stroke-width="1.4"/>
-  <circle cx="262" cy="422" r="34" fill="none" stroke="#1e1b16" stroke-width="2.2"/>
-  <path d="M378 328 C354 338 348 388 366 420" fill="none" stroke="#1e1b16" stroke-width="2.2" stroke-linecap="round"/>
-  <ellipse cx="418" cy="314" rx="32" ry="10" fill="none" stroke="#1e1b16" stroke-width="2"/>
-  <path d="M390 322 C384 322 378 334 376 348 L368 438 C366 456 376 456 386 456 H456 C468 456 474 446 472 430 L464 348 C462 334 454 322 446 322 Z" fill="none" stroke="#1e1b16" stroke-width="2.2" stroke-linejoin="round"/>
-  <path d="M508 334 H576 V456 H508 Z" fill="none" stroke="#1e1b16" stroke-width="2.2" stroke-linejoin="round"/>
-  <path d="M502 334 H582" fill="none" stroke="#1e1b16" stroke-width="2" stroke-linecap="round"/>
-  <path d="M542 334 V314" fill="none" stroke="#1e1b16" stroke-width="2" stroke-linecap="round"/>
-  <circle cx="542" cy="306" r="8" fill="none" stroke="#1e1b16" stroke-width="2"/>
+  <rect x="36" y="36" width="568" height="568" fill="none" stroke="#1e1b16" stroke-width="1.6"/>
+  <line x1="70" y1="470" x2="570" y2="470" stroke="#1e1b16" stroke-width="1.6"/>
+  <circle cx="120" cy="360" r="62" fill="none" stroke="#1e1b16" stroke-width="2.4"/>
+  <rect x="210" y="300" width="70" height="150" rx="6" fill="none" stroke="#1e1b16" stroke-width="2.4"/>
+  <circle cx="400" cy="360" r="62" fill="none" stroke="#8d3b32" stroke-width="2.4"/>
+  <rect x="490" y="310" width="80" height="130" rx="8" fill="none" stroke="#1e1b16" stroke-width="2.4"/>
 </svg>
