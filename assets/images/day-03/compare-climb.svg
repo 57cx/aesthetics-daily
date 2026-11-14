@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+  <title>A mountain filling the frame, with a gap, a path, and one small figure</title>
+  <rect width="640" height="640" fill="#f7f4ee"/>
+  <rect x="36" y="36" width="568" height="568" fill="none" stroke="#1e1b16" stroke-width="1.6"/>
+  <polygon points="320,62 86,286 554,286" fill="none" stroke="#1e1b16" stroke-width="2.4"/>
+  <polyline points="186,286 236,168 300,286" fill="none" stroke="#1e1b16" stroke-width="1.5"/>
+  <polyline points="360,286 404,176 488,286" fill="none" stroke="#1e1b16" stroke-width="1.5"/>
+  <polygon points="70,332 570,332 586,552 54,552" fill="none" stroke="#1e1b16" stroke-width="2.2"/>
+  <path d="M168 552 C 210 500, 268 518, 318 456" fill="none" stroke="#1e1b16" stroke-width="1.7"/>
+  <circle cx="164" cy="540" r="8" fill="none" stroke="#8d3b32" stroke-width="2.2"/>
+</svg>
