@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+  <title>A circle with three lights and three shadows pointing different ways</title>
+  <rect width="640" height="640" fill="#f7f4ee"/>
+  <rect x="36" y="36" width="568" height="568" fill="none" stroke="#1e1b16" stroke-width="1.6"/>
+  <line x1="96" y1="492" x2="544" y2="492" stroke="#1e1b16" stroke-width="1.6"/>
+  <ellipse cx="188" cy="508" rx="62" ry="14" fill="none" stroke="#1e1b16" stroke-width="1.6"/>
+  <ellipse cx="320" cy="528" rx="70" ry="13" fill="none" stroke="#1e1b16" stroke-width="1.6"/>
+  <ellipse cx="452" cy="506" rx="58" ry="14" fill="none" stroke="#1e1b16" stroke-width="1.6"/>
+  <circle cx="286" cy="366" r="118" fill="none" stroke="#1e1b16" stroke-width="2.4"/>
+  <circle cx="150" cy="210" r="11" fill="none" stroke="#8d3b32" stroke-width="2.2"/>
+  <circle cx="320" cy="132" r="11" fill="none" stroke="#8d3b32" stroke-width="2.2"/>
+  <circle cx="470" cy="214" r="11" fill="none" stroke="#8d3b32" stroke-width="2.2"/>
+</svg>

@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+  <title>A ball lit from the upper left, with one shadow on the ground</title>
+  <rect width="640" height="640" fill="#f7f4ee"/>
+  <rect x="36" y="36" width="568" height="568" fill="none" stroke="#1e1b16" stroke-width="1.6"/>
+  <line x1="96" y1="492" x2="544" y2="492" stroke="#1e1b16" stroke-width="1.6"/>
+  <ellipse cx="392" cy="508" rx="78" ry="15" fill="none" stroke="#1e1b16" stroke-width="1.8"/>
+  <defs>
+    <clipPath id="ball-side">
+      <circle cx="286" cy="366" r="116"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#ball-side)" fill="none" stroke="#1e1b16" stroke-width="1.5">
+    <path d="M318 258 v216"/>
+    <path d="M342 268 v196"/>
+    <path d="M366 284 v164"/>
+    <path d="M388 306 v122"/>
+  </g>
+  <circle cx="286" cy="366" r="118" fill="none" stroke="#1e1b16" stroke-width="2.4"/>
+  <path d="M214 318 a 52 48 0 0 1 70 -42" fill="none" stroke="#8d3b32" stroke-width="2.6" stroke-linecap="round"/>
+</svg>
