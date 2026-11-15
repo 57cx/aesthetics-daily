@@ -30,8 +30,9 @@
   title: "光影：光一来，东西才有体积"
   category: 基础理论
   topic: 光影
-  examples: "一幅光从一侧来的公有领域绘画（如伦勃朗、卡拉瓦乔，须核对照片许可），讲受光、背光和影子怎样把平面变成体积。"
-  published: false
+  examples: "Tobias ToMar Maier 摄窗边人像（Wikimedia Commons，CC BY-SA 4.0）；Henry Mühlpfordt 摄玻璃球与影子（CC BY-SA 3.0）；Mattes 摄咖啡馆桌上的杯子（CC BY-SA 4.0）；Ștefan Jurcă 摄布加勒斯特利普斯卡尼街日落（Flickr，CC BY 2.0）；伦勃朗《自画像》（大都会艺术博物馆，藏品数据 isPublicDomain 为 true，维基共享同图为 CC0）"
+  published: true
+  date: 2026-11-15
 -
   day: 5
   title: "拍照：先给画面留一口气"
