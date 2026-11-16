@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 620">
+  <title>A phone rectangle keeps a small cup and empty table, and leaves a book outside</title>
+  <rect width="880" height="620" fill="#f7f4ee"/>
+  <rect x="24" y="24" width="832" height="572" fill="none" stroke="#b7ad9e" stroke-width="1.6" stroke-dasharray="6 6"/>
+  <rect x="292" y="56" width="296" height="488" fill="#faf7f1" stroke="#1e1b16" stroke-width="2.6"/>
+  <circle cx="440" cy="78" r="4.5" fill="none" stroke="#1e1b16" stroke-width="1.5"/>
+  <rect x="72" y="268" width="128" height="168" fill="none" stroke="#1e1b16" stroke-width="2.2"/>
+  <rect x="92" y="296" width="84" height="9" fill="#8d3b32"/>
+  <rect x="92" y="318" width="52" height="6" fill="#1e1b16"/>
+  <rect x="92" y="334" width="68" height="6" fill="#1e1b16"/>
+  <path d="M388 392 L388 430 Q440 486 492 430 L492 392" fill="none" stroke="#1e1b16" stroke-width="2.3"/>
+  <ellipse cx="440" cy="392" rx="52" ry="15" fill="#faf7f1" stroke="#1e1b16" stroke-width="2.3"/>
+  <path d="M492 408 C528 404 534 452 492 448" fill="none" stroke="#1e1b16" stroke-width="2.3"/>
+  <path d="M408 388 C424 376 446 376 458 386" fill="none" stroke="#8d3b32" stroke-width="2.4" stroke-linecap="round"/>
+</svg>
