@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+  <title>A cup enlarged until it is cut off by all four edges</title>
+  <rect width="640" height="640" fill="#f7f4ee"/>
+  <defs>
+    <clipPath id="tight-frame">
+      <rect x="38" y="38" width="564" height="564"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#tight-frame)" fill="none" stroke="#1e1b16" stroke-width="2.6">
+    <path d="M180 150 L180 720"/>
+    <path d="M460 150 L460 720"/>
+    <path d="M460 240 C590 220 610 370 460 400"/>
+    <ellipse cx="320" cy="20" rx="480" ry="150" fill="#f7f4ee"/>
+    <path d="M170 55 C250 28 340 30 420 62" stroke="#8d3b32" stroke-width="2.8" stroke-linecap="round"/>
+  </g>
+  <rect x="36" y="36" width="568" height="568" fill="none" stroke="#1e1b16" stroke-width="1.6"/>
+</svg>

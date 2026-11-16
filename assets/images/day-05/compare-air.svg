@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+  <title>A small cup with empty space around it inside the frame</title>
+  <rect width="640" height="640" fill="#f7f4ee"/>
+  <rect x="36" y="36" width="568" height="568" fill="none" stroke="#1e1b16" stroke-width="1.6"/>
+  <path d="M280 400 L280 436 Q320 488 360 436 L360 400" fill="none" stroke="#1e1b16" stroke-width="2.3"/>
+  <ellipse cx="320" cy="400" rx="40" ry="12" fill="#f7f4ee" stroke="#1e1b16" stroke-width="2.3"/>
+  <path d="M360 414 C394 410 398 454 360 450" fill="none" stroke="#1e1b16" stroke-width="2.3"/>
+  <path d="M296 396 C310 386 332 386 344 396" fill="none" stroke="#8d3b32" stroke-width="2.4" stroke-linecap="round"/>
+</svg>
