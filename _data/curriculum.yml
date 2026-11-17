@@ -46,8 +46,9 @@
   title: "冷暖：颜色不用多，也能分开"
   category: 基础理论
   topic: 色彩的冷暖
-  examples: "一幅冷暖分明、照片为 CC0 或公有领域的绘画。少谈色环名词，只讲暖的往前、冷的往后。"
-  published: false
+  examples: "Marina Leonova 摄蓝底上的橘子（Pexels，照片页标明 Free，许可页为 Pexels License）；Dietmar Rabich 摄德国明斯特 Prinzipalmarkt 傍晚的店铺（Wikimedia Commons，CC BY-SA 4.0）；保罗·塞尚《苹果和一盆报春花》（大都会艺术博物馆，藏品数据 isPublicDomain 为 true，维基共享同图为 CC0）"
+  published: true
+  date: 2026-11-17
 -
   day: 7
   title: "维米尔：窗边为什么那么静"

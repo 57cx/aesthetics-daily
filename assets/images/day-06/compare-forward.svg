@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+  <title>One warm circle in front of a cool blue field</title>
+  <rect width="640" height="640" fill="#f7f4ee"/>
+  <rect x="36" y="36" width="568" height="568" fill="#3f6f86"/>
+  <circle cx="320" cy="392" r="86" fill="#e07a32"/>
+  <rect x="36" y="36" width="568" height="568" fill="none" stroke="#1e1b16" stroke-width="1.6"/>
+</svg>
