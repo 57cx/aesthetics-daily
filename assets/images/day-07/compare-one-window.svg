@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+  <title>One window lighting one person, with a large dark wall</title>
+  <rect width="640" height="640" fill="#f7f4ee"/>
+  <rect x="36" y="36" width="568" height="568" fill="#2a2622"/>
+  <polygon points="72,268 214,268 372,512 148,512" fill="#6e5a40"/>
+  <rect x="72" y="84" width="142" height="184" fill="#f3e2b8"/>
+  <path d="M143 84 v184 M72 176 h142" fill="none" stroke="#2a2622" stroke-width="7"/>
+  <rect x="176" y="468" width="188" height="16" fill="#e7d3ae"/>
+  <rect x="196" y="484" width="12" height="46" fill="#e7d3ae"/>
+  <rect x="332" y="484" width="12" height="46" fill="#e7d3ae"/>
+  <circle cx="278" cy="352" r="28" fill="#f7f1e4"/>
+  <path d="M236 392 h84 l18 78 h-120 z" fill="#f7f1e4"/>
+  <rect x="36" y="36" width="568" height="568" fill="none" stroke="#1e1b16" stroke-width="1.6"/>
+</svg>

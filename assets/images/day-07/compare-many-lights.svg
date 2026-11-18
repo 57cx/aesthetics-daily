@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+  <title>Several equal lights and several people filling the room</title>
+  <rect width="640" height="640" fill="#f7f4ee"/>
+  <rect x="36" y="36" width="568" height="568" fill="#2a2622"/>
+  <rect x="64" y="72" width="118" height="132" fill="#f3e2b8"/>
+  <rect x="458" y="72" width="118" height="132" fill="#f3e2b8"/>
+  <rect x="246" y="64" width="148" height="40" fill="#f3e2b8"/>
+  <rect x="64" y="456" width="118" height="112" fill="#f3e2b8"/>
+  <rect x="458" y="420" width="118" height="140" fill="#f3e2b8"/>
+  <g fill="#f7f1e4">
+    <circle cx="168" cy="268" r="20"/>
+    <path d="M140 296 h56 l12 52 h-80 z"/>
+    <circle cx="320" cy="196" r="20"/>
+    <path d="M292 224 h56 l12 52 h-80 z"/>
+    <circle cx="478" cy="292" r="20"/>
+    <path d="M450 320 h56 l12 52 h-80 z"/>
+    <circle cx="300" cy="400" r="20"/>
+    <path d="M272 428 h56 l12 52 h-80 z"/>
+  </g>
+  <rect x="36" y="36" width="568" height="568" fill="none" stroke="#1e1b16" stroke-width="1.6"/>
+</svg>

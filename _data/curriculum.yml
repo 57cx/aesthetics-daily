@@ -55,7 +55,8 @@
   category: 艺术史入门
   topic: 窗光与安静
   examples: "维米尔的一件作品，优先荷兰国立博物馆开放图像，许可必须在藏品页核对。只讲这一件：窗光、少数人、安静从哪里来。"
-  published: false
+  published: true
+  date: 2026-11-18
 -
   day: 8
   title: "桌面：少放一件，房间就松了"
