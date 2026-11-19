@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+  <title>从上往下看同一张桌子，杯子、本子、瓶子和手机铺到四边</title>
+  <rect width="640" height="640" fill="#f7f4ee"/>
+  <rect x="36" y="36" width="568" height="568" fill="#efe6d8"/>
+  <rect x="78" y="100" width="484" height="440" rx="4" fill="#e4c79a" stroke="#8b6438" stroke-width="10"/>
+  <rect x="108" y="132" width="140" height="96" rx="6" fill="#4e585f"/>
+  <rect x="116" y="140" width="124" height="60" rx="2" fill="#2b3136"/>
+  <rect x="136" y="208" width="84" height="5" rx="2" fill="#6a737a"/>
+  <circle cx="310" cy="176" r="30" fill="#f6f1e6" stroke="#cbbda6" stroke-width="4"/>
+  <circle cx="310" cy="176" r="17" fill="#c4a882"/>
+  <path d="M338 164 h8 a13 13 0 0 1 0 26 h-8" fill="none" stroke="#cbbda6" stroke-width="4"/>
+  <rect x="390" y="136" width="140" height="84" rx="3" fill="#f3e6c8" stroke="#c4b49a" stroke-width="3"/>
+  <path d="M404 136 v84" fill="none" stroke="#c4b49a" stroke-width="3"/>
+  <rect x="112" y="268" width="48" height="82" rx="8" fill="#3e4650"/>
+  <circle cx="136" cy="286" r="4" fill="#efe6d8"/>
+  <rect x="188" y="256" width="44" height="108" rx="16" fill="#7d8f86"/>
+  <rect x="198" y="248" width="24" height="16" rx="4" fill="#5f736b"/>
+  <circle cx="320" cy="320" r="30" fill="#f6f1e6" stroke="#cbbda6" stroke-width="4"/>
+  <circle cx="320" cy="320" r="17" fill="#c4a882"/>
+  <path d="M348 308 h8 a13 13 0 0 1 0 26 h-8" fill="none" stroke="#cbbda6" stroke-width="4"/>
+  <rect x="390" y="258" width="140" height="92" rx="3" fill="#f7f1e4" stroke="#c4b49a" stroke-width="3"/>
+  <path d="M404 258 v92" fill="none" stroke="#c4b49a" stroke-width="3"/>
+  <rect x="112" y="400" width="100" height="70" rx="3" fill="#d8c7a4" stroke="#b79a72" stroke-width="3"/>
+  <rect x="236" y="412" width="130" height="74" rx="3" fill="#f3e6c8" stroke="#c4b49a" stroke-width="3"/>
+  <path d="M250 412 v74" fill="none" stroke="#c4b49a" stroke-width="3"/>
+  <rect x="430" y="430" width="52" height="36" rx="3" fill="#c4b49a"/>
+  <circle cx="456" cy="418" r="32" fill="#6d7c52"/>
+  <rect x="36" y="36" width="568" height="568" fill="none" stroke="#1e1b16" stroke-width="1.6"/>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640">
+  <title>从上往下看一张桌子，左边一台电脑和一只杯子，右边是空的桌面</title>
+  <rect width="640" height="640" fill="#f7f4ee"/>
+  <rect x="36" y="36" width="568" height="568" fill="#efe6d8"/>
+  <rect x="78" y="100" width="484" height="440" rx="4" fill="#e4c79a" stroke="#8b6438" stroke-width="10"/>
+  <rect x="118" y="168" width="156" height="108" rx="6" fill="#4e585f"/>
+  <rect x="128" y="178" width="136" height="68" rx="2" fill="#2b3136"/>
+  <rect x="148" y="254" width="96" height="6" rx="2" fill="#6a737a"/>
+  <rect x="176" y="266" width="40" height="6" rx="2" fill="#6a737a"/>
+  <circle cx="196" cy="360" r="34" fill="#f6f1e6" stroke="#cbbda6" stroke-width="4"/>
+  <circle cx="196" cy="360" r="20" fill="#c4a882"/>
+  <path d="M228 348 h8 a14 14 0 0 1 0 28 h-8" fill="none" stroke="#cbbda6" stroke-width="4"/>
+  <rect x="36" y="36" width="568" height="568" fill="none" stroke="#1e1b16" stroke-width="1.6"/>
+</svg>
