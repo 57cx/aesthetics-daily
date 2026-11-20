@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520">
+  <title>示意图：同样的路灯从左到右挤满，间距一样，边上也不留空</title>
+  <rect width="800" height="520" fill="#f7f4ee"/>
+  <rect x="36" y="36" width="728" height="448" fill="#f3efe6"/>
+  <rect x="36" y="348" width="728" height="136" fill="#e7d7b8"/>
+  <rect x="36" y="348" width="728" height="8" fill="#cbb892"/>
+  <g fill="none" stroke="#2c2924" stroke-width="5" stroke-linecap="round">
+    <g>
+      <line x1="78" y1="348" x2="78" y2="176"/>
+      <circle cx="78" cy="162" r="16" fill="#f7f1e4" stroke="#2c2924"/>
+    </g>
+    <g>
+      <line x1="138" y1="348" x2="138" y2="176"/>
+      <circle cx="138" cy="162" r="16" fill="#f7f1e4" stroke="#2c2924"/>
+    </g>
+    <g>
+      <line x1="198" y1="348" x2="198" y2="176"/>
+      <circle cx="198" cy="162" r="16" fill="#f7f1e4" stroke="#2c2924"/>
+    </g>
+    <g>
+      <line x1="258" y1="348" x2="258" y2="176"/>
+      <circle cx="258" cy="162" r="16" fill="#f7f1e4" stroke="#2c2924"/>
+    </g>
+    <g>
+      <line x1="318" y1="348" x2="318" y2="176"/>
+      <circle cx="318" cy="162" r="16" fill="#f7f1e4" stroke="#2c2924"/>
+    </g>
+    <g>
+      <line x1="378" y1="348" x2="378" y2="176"/>
+      <circle cx="378" cy="162" r="16" fill="#f7f1e4" stroke="#2c2924"/>
+    </g>
+    <g>
+      <line x1="438" y1="348" x2="438" y2="176"/>
+      <circle cx="438" cy="162" r="16" fill="#f7f1e4" stroke="#2c2924"/>
+    </g>
+    <g>
+      <line x1="498" y1="348" x2="498" y2="176"/>
+      <circle cx="498" cy="162" r="16" fill="#f7f1e4" stroke="#2c2924"/>
+    </g>
+    <g>
+      <line x1="558" y1="348" x2="558" y2="176"/>
+      <circle cx="558" cy="162" r="16" fill="#f7f1e4" stroke="#2c2924"/>
+    </g>
+    <g>
+      <line x1="618" y1="348" x2="618" y2="176"/>
+      <circle cx="618" cy="162" r="16" fill="#f7f1e4" stroke="#2c2924"/>
+    </g>
+    <g>
+      <line x1="678" y1="348" x2="678" y2="176"/>
+      <circle cx="678" cy="162" r="16" fill="#f7f1e4" stroke="#2c2924"/>
+    </g>
+    <g>
+      <line x1="738" y1="348" x2="738" y2="176"/>
+      <circle cx="738" cy="162" r="16" fill="#f7f1e4" stroke="#2c2924"/>
+    </g>
+  </g>
+  <rect x="36" y="36" width="728" height="448" fill="none" stroke="#1e1b16" stroke-width="1.6"/>
+</svg>
