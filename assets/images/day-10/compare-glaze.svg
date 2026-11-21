@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560">
+  <title>示意图：一只深色的碗，口沿附近只有几条细纹，底下一圈是陶土色</title>
+  <rect width="800" height="560" fill="#f7f4ee"/>
+  <rect x="36" y="36" width="728" height="488" fill="#f3efe6"/>
+  <rect x="36" y="454" width="728" height="70" fill="#e7d7b8"/>
+  <rect x="36" y="454" width="728" height="8" fill="#cbb892"/>
+  <defs>
+    <clipPath id="wall-quiet">
+      <path d="M164 196 C186 330 290 408 338 424 L462 424 C510 408 614 330 636 196 Z"/>
+    </clipPath>
+  </defs>
+  <path d="M338 424 H462 V458 H338 Z" fill="#d7c4a8" stroke="#2c2924" stroke-width="5" stroke-linejoin="round"/>
+  <path d="M164 196 C186 330 290 408 338 424 L462 424 C510 408 614 330 636 196 Z" fill="#4a3d34" stroke="#2c2924" stroke-width="5" stroke-linejoin="round"/>
+  <ellipse cx="400" cy="196" rx="236" ry="38" fill="#3a312b" stroke="#2c2924" stroke-width="5"/>
+  <g clip-path="url(#wall-quiet)" fill="none" stroke="#c4b09a" stroke-width="3.2" stroke-linecap="round">
+    <path d="M268 236 C266 252 272 266 278 278"/>
+    <path d="M312 232 C308 254 318 270 326 286"/>
+    <path d="M458 234 C464 252 454 268 460 284"/>
+    <path d="M508 240 C514 256 504 270 500 282"/>
+  </g>
+  <rect x="36" y="36" width="728" height="488" fill="none" stroke="#1e1b16" stroke-width="1.6"/>
+</svg>
