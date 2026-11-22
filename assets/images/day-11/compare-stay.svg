@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560">
+  <title>示意图：大半留空，下面一块深色，旁边只有一个小亮点</title>
+  <rect width="800" height="560" fill="#f7f4ee"/>
+  <rect x="36" y="36" width="728" height="488" fill="#efe8da"/>
+  <rect x="36" y="36" width="728" height="488" fill="none" stroke="#1e1b16" stroke-width="1.6"/>
+  <rect x="118" y="332" width="156" height="112" fill="#3c3832"/>
+  <circle cx="548" cy="128" r="13" fill="#c9842a"/>
+</svg>
