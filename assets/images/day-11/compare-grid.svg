@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560">
+  <title>示意图：手机屏幕里九个一样大的小格，每格都有点和线</title>
+  <rect width="800" height="560" fill="#f7f4ee"/>
+  <rect x="196" y="22" width="408" height="516" rx="32" fill="#2c2924"/>
+  <rect x="216" y="48" width="368" height="452" rx="8" fill="#f3efe6"/>
+  <g>
+    <rect x="232" y="64" width="104" height="132" fill="#f7f4ee" stroke="#1e1b16" stroke-width="2"/>
+    <circle cx="284" cy="130" r="28" fill="#8d3b32"/>
+    <rect x="348" y="64" width="104" height="132" fill="#f7f4ee" stroke="#1e1b16" stroke-width="2"/>
+    <g fill="none" stroke="#1f4e79" stroke-width="6">
+      <path d="M364 100 h72"/>
+      <path d="M364 128 h72"/>
+      <path d="M364 156 h72"/>
+    </g>
+    <rect x="464" y="64" width="104" height="132" fill="#f7f4ee" stroke="#1e1b16" stroke-width="2"/>
+    <path d="M516 92 l28 52 h-56 z" fill="#c4922a"/>
+    <rect x="232" y="208" width="104" height="132" fill="#f7f4ee" stroke="#1e1b16" stroke-width="2"/>
+    <g fill="#2c5c4e">
+      <rect x="252" y="232" width="18" height="18"/>
+      <rect x="278" y="232" width="18" height="18"/>
+      <rect x="304" y="232" width="18" height="18"/>
+      <rect x="252" y="258" width="18" height="18"/>
+      <rect x="278" y="258" width="18" height="18"/>
+      <rect x="304" y="258" width="18" height="18"/>
+      <rect x="252" y="284" width="18" height="18"/>
+      <rect x="278" y="284" width="18" height="18"/>
+      <rect x="304" y="284" width="18" height="18"/>
+    </g>
+    <rect x="348" y="208" width="104" height="132" fill="#f7f4ee" stroke="#1e1b16" stroke-width="2"/>
+    <polyline fill="none" stroke="#8d3b32" stroke-width="6" stroke-linejoin="round" points="368,236 400,268 368,300 400,312"/>
+    <rect x="464" y="208" width="104" height="132" fill="#f7f4ee" stroke="#1e1b16" stroke-width="2"/>
+    <g fill="#1f4e79">
+      <circle cx="492" cy="250" r="8"/>
+      <circle cx="516" cy="250" r="8"/>
+      <circle cx="540" cy="250" r="8"/>
+      <circle cx="492" cy="278" r="8"/>
+      <circle cx="516" cy="278" r="8"/>
+      <circle cx="540" cy="278" r="8"/>
+      <circle cx="492" cy="306" r="8"/>
+      <circle cx="516" cy="306" r="8"/>
+      <circle cx="540" cy="306" r="8"/>
+    </g>
+    <rect x="232" y="352" width="104" height="132" fill="#f7f4ee" stroke="#1e1b16" stroke-width="2"/>
+    <g stroke="#c4922a" stroke-width="7">
+      <path d="M256 378 l56 80"/>
+      <path d="M312 378 l-56 80"/>
+    </g>
+    <rect x="348" y="352" width="104" height="132" fill="#f7f4ee" stroke="#1e1b16" stroke-width="2"/>
+    <path d="M400 384 h48 v48 h-48 z" fill="none" stroke="#8d3b32" stroke-width="8"/>
+    <path d="M400 408 h48 M424 384 v48" stroke="#1f4e79" stroke-width="6"/>
+    <rect x="464" y="352" width="104" height="132" fill="#f7f4ee" stroke="#1e1b16" stroke-width="2"/>
+    <circle cx="498" cy="418" r="22" fill="#2c5c4e"/>
+    <circle cx="534" cy="418" r="22" fill="#c4922a"/>
+  </g>
+  <rect x="360" y="508" width="80" height="8" rx="4" fill="#cfc6b8"/>
+</svg>
