@@ -94,8 +94,9 @@
   title: "材质：丝、纸、石头，看起来不一样"
   category: 基础理论
   topic: 材质
-  examples: "对比一件绢本和一件纸本（都须开放许可），再说到器物表面。让读者看出底子本身也在说话。"
-  published: false
+  examples: "Anderson Alves 摄一块白色丝织布的近景（Pexels，照片页标明 Free，许可页为 Pexels License）；kaboompics 摄白色大理石表面近景（Pexels，照片页标明 Free，许可页为 Pexels License）；《墨竹》（馆方标题 Ink Bamboo，南宋，绢本水墨，馆方未写画家名字，克利夫兰艺术博物馆 1982.138，藏品页标 Public Domain，页面数据分享状态 CC0，开放获取说明为 CC0）；王翬《仿王蒙修竹远山图》（馆方英文标题 Tall Bamboo and Distant Mountains, after Wang Meng，1694，纸本水墨，克利夫兰艺术博物馆 1953.629，藏品页标 Public Domain，页面数据分享状态 CC0，开放获取说明为 CC0）。前后对照用本站画的三块材料示意。课表原来要求一件绢本、一件纸本，都须开放许可，再说到器物表面。用的就是这两张竹，外加一块丝布和一块石头的近照。不讲鉴定，不评价真实住家。"
+  published: true
+  date: 2026-11-23
 -
   day: 13
   title: "比例：衣服先把高矮分对"

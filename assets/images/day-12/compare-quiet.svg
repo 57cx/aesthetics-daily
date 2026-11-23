@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560">
+  <title>示意图：三块底子各留着自己的样子。丝有织纹，纸大半是空的，石头只有几条纹</title>
+  <rect width="800" height="560" fill="#f7f4ee"/>
+  <rect x="36" y="36" width="728" height="488" fill="#f3efe6"/>
+  <g>
+    <rect x="64" y="84" width="200" height="392" fill="#c4a574"/>
+    <g stroke="#a68452" stroke-width="1.1" opacity="0.55">
+      <path d="M64 100 H264"/>
+      <path d="M64 116 H264"/>
+      <path d="M64 132 H264"/>
+      <path d="M64 148 H264"/>
+      <path d="M64 164 H264"/>
+      <path d="M64 180 H264"/>
+      <path d="M64 196 H264"/>
+      <path d="M64 212 H264"/>
+      <path d="M64 228 H264"/>
+      <path d="M64 244 H264"/>
+      <path d="M64 260 H264"/>
+      <path d="M64 276 H264"/>
+      <path d="M64 292 H264"/>
+      <path d="M64 308 H264"/>
+      <path d="M64 324 H264"/>
+      <path d="M64 340 H264"/>
+      <path d="M64 356 H264"/>
+      <path d="M64 372 H264"/>
+      <path d="M64 388 H264"/>
+      <path d="M64 404 H264"/>
+      <path d="M64 420 H264"/>
+      <path d="M64 436 H264"/>
+      <path d="M64 452 H264"/>
+    </g>
+    <path d="M92 150 C140 118 188 150 228 132" fill="none" stroke="#f3e6cc" stroke-width="7" stroke-linecap="round" opacity="0.85"/>
+    <g fill="#3a342c">
+      <path d="M118 168 C132 154 146 168 132 188 Z"/>
+      <path d="M148 176 C164 160 178 176 162 198 Z"/>
+      <path d="M176 160 C190 146 206 164 188 186 Z"/>
+    </g>
+    <rect x="64" y="84" width="200" height="392" fill="none" stroke="#2c2924" stroke-width="3"/>
+  </g>
+  <g>
+    <rect x="300" y="84" width="200" height="392" fill="#f6f1e6"/>
+    <path d="M392 250 V446" fill="none" stroke="#2c2924" stroke-width="3" stroke-linecap="round"/>
+    <g fill="none" stroke="#2c2924" stroke-width="2.4" stroke-linecap="round">
+      <path d="M392 300 C372 286 358 292 346 278"/>
+      <path d="M392 318 C414 304 428 312 442 296"/>
+      <path d="M392 352 C370 340 356 348 344 334"/>
+      <path d="M392 370 C416 356 432 366 446 350"/>
+      <path d="M392 404 C374 392 360 400 348 386"/>
+    </g>
+    <rect x="300" y="84" width="200" height="392" fill="none" stroke="#2c2924" stroke-width="3"/>
+  </g>
+  <g>
+    <rect x="536" y="84" width="200" height="392" fill="#e4e0d8"/>
+    <path d="M560 150 C600 190 640 170 710 230" fill="none" stroke="#8e8982" stroke-width="10" stroke-linecap="round" opacity="0.8"/>
+    <path d="M548 300 C610 340 650 320 720 390" fill="none" stroke="#9a948c" stroke-width="6" stroke-linecap="round" opacity="0.75"/>
+    <rect x="536" y="84" width="200" height="392" fill="none" stroke="#2c2924" stroke-width="3"/>
+  </g>
+  <rect x="36" y="36" width="728" height="488" fill="none" stroke="#1e1b16" stroke-width="1.6"/>
+</svg>

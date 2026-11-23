@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560">
+  <title>示意图：三块一样大的方块，每块都铺满同样的点、线和色块</title>
+  <rect width="800" height="560" fill="#f7f4ee"/>
+  <rect x="36" y="36" width="728" height="488" fill="#f3efe6"/>
+  <defs>
+    <pattern id="shout" width="40" height="40" patternUnits="userSpaceOnUse">
+      <circle cx="8" cy="8" r="4.5" fill="#8d3b32"/>
+      <path d="M0 22 H40" fill="none" stroke="#1f4e79" stroke-width="2.2"/>
+      <path d="M26 4 l7 12 h-14 z" fill="#c4922a"/>
+      <rect x="4" y="28" width="9" height="9" fill="#2c5c4e"/>
+      <circle cx="30" cy="32" r="3.2" fill="#f4f0e6"/>
+    </pattern>
+    <pattern id="shout-b" width="40" height="40" patternUnits="userSpaceOnUse" x="8" y="6">
+      <circle cx="8" cy="8" r="4.5" fill="#8d3b32"/>
+      <path d="M0 22 H40" fill="none" stroke="#1f4e79" stroke-width="2.2"/>
+      <path d="M26 4 l7 12 h-14 z" fill="#c4922a"/>
+      <rect x="4" y="28" width="9" height="9" fill="#2c5c4e"/>
+      <circle cx="30" cy="32" r="3.2" fill="#f4f0e6"/>
+    </pattern>
+    <pattern id="shout-c" width="40" height="40" patternUnits="userSpaceOnUse" x="4" y="10">
+      <circle cx="8" cy="8" r="4.5" fill="#8d3b32"/>
+      <path d="M0 22 H40" fill="none" stroke="#1f4e79" stroke-width="2.2"/>
+      <path d="M26 4 l7 12 h-14 z" fill="#c4922a"/>
+      <rect x="4" y="28" width="9" height="9" fill="#2c5c4e"/>
+      <circle cx="30" cy="32" r="3.2" fill="#f4f0e6"/>
+    </pattern>
+  </defs>
+  <rect x="64" y="84" width="200" height="392" fill="url(#shout)" stroke="#2c2924" stroke-width="3"/>
+  <rect x="300" y="84" width="200" height="392" fill="url(#shout-b)" stroke="#2c2924" stroke-width="3"/>
+  <rect x="536" y="84" width="200" height="392" fill="url(#shout-c)" stroke="#2c2924" stroke-width="3"/>
+  <rect x="36" y="36" width="728" height="488" fill="none" stroke="#1e1b16" stroke-width="1.6"/>
+</svg>
