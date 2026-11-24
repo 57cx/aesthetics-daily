@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 800">
+  <title>示意图：外套、里面那件和裤子的边挤在同一带，衣服又快顶到框边</title>
+  <rect width="640" height="800" fill="#f7f4ee"/>
+  <rect x="32" y="32" width="576" height="736" fill="none" stroke="#1e1b16" stroke-width="1.6"/>
+  <g stroke="#1e1b16" stroke-width="2.2" stroke-linejoin="round">
+    <ellipse cx="320" cy="96" rx="26" ry="32" fill="#f7f4ee"/>
+    <path d="M311 126 h18 v22 h-18 z" fill="#f7f4ee"/>
+    <path d="M48 168 h36 v230 h-36 z" fill="#4e585f"/>
+    <path d="M556 168 h36 v206 h-36 z" fill="#4e585f"/>
+    <path d="M70 160 h500 v286 h-500 z" fill="#5c6b73"/>
+    <path d="M96 430 h448 v300 h-448 z" fill="#cbb892"/>
+    <path d="M150 732 h100 v28 h-100 z" fill="#1e1b16"/>
+    <path d="M390 732 h100 v28 h-100 z" fill="#1e1b16"/>
+  </g>
+  <g stroke="#1e1b16" stroke-width="2.4" stroke-linecap="round">
+    <line x1="70" y1="446" x2="570" y2="446"/>
+    <line x1="110" y1="460" x2="530" y2="460"/>
+    <line x1="84" y1="474" x2="556" y2="474"/>
+    <line x1="126" y1="490" x2="514" y2="490"/>
+  </g>
+  <line x1="48" y1="398" x2="84" y2="398" stroke="#1e1b16" stroke-width="2.2"/>
+  <line x1="556" y1="374" x2="592" y2="374" stroke="#1e1b16" stroke-width="2.2"/>
+</svg>
