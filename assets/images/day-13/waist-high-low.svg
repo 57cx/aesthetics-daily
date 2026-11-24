@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 640">
+  <title>示意图：同样的高度，腰上的线偏上时，下面那一段更长；线偏下时，下面那一段更短</title>
+  <rect width="880" height="640" fill="#f7f4ee"/>
+  <rect x="28" y="28" width="824" height="584" fill="#f3efe6"/>
+  <line x1="440" y1="72" x2="440" y2="568" stroke="#e4dccb" stroke-width="1.5"/>
+  <line x1="72" y1="556" x2="808" y2="556" stroke="#cfc4b0" stroke-width="1.5"/>
+  <!-- left: the line sits high, so the lower piece is long -->
+  <g stroke="#1e1b16" stroke-width="2.2" stroke-linejoin="round">
+    <ellipse cx="230" cy="112" rx="26" ry="32" fill="#f7f4ee"/>
+    <path d="M221 142 h18 v28 h-18 z" fill="#f3efe6"/>
+    <path d="M146 176 h26 v70 h-26 z" fill="#4e585f"/>
+    <path d="M288 176 h26 v70 h-26 z" fill="#4e585f"/>
+    <path d="M168 172 h124 v78 h-124 z" fill="#5c6b73"/>
+    <path d="M180 264 h100 v236 h-100 z" fill="#cbb892"/>
+    <path d="M188 512 h34 v26 h-34 z" fill="#1e1b16"/>
+    <path d="M238 512 h34 v26 h-34 z" fill="#1e1b16"/>
+  </g>
+  <line x1="160" y1="250" x2="300" y2="250" stroke="#8d3b32" stroke-width="3.5" stroke-linecap="round"/>
+  <!-- right: the line sits low, so the lower piece is short -->
+  <g stroke="#1e1b16" stroke-width="2.2" stroke-linejoin="round">
+    <ellipse cx="650" cy="112" rx="26" ry="32" fill="#f7f4ee"/>
+    <path d="M641 142 h18 v28 h-18 z" fill="#f3efe6"/>
+    <path d="M528 176 h36 v150 h-36 z" fill="#5a4c3e"/>
+    <path d="M736 176 h36 v150 h-36 z" fill="#5a4c3e"/>
+    <path d="M560 172 h180 v228 h-180 z" fill="#6a5a4a"/>
+    <path d="M600 414 h100 v86 h-100 z" fill="#cbb892"/>
+    <path d="M608 512 h34 v26 h-34 z" fill="#1e1b16"/>
+    <path d="M658 512 h34 v26 h-34 z" fill="#1e1b16"/>
+  </g>
+  <line x1="548" y1="400" x2="752" y2="400" stroke="#8d3b32" stroke-width="3.5" stroke-linecap="round"/>
+  <rect x="28" y="28" width="824" height="584" fill="none" stroke="#1e1b16" stroke-width="1.6"/>
+</svg>

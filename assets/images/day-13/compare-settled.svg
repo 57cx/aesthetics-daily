@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 800">
+  <title>示意图：腰上只有一条线，上衣在那里停住，和裤子隔开一点，四周留着空</title>
+  <rect width="640" height="800" fill="#f7f4ee"/>
+  <rect x="32" y="32" width="576" height="736" fill="none" stroke="#1e1b16" stroke-width="1.6"/>
+  <g stroke="#1e1b16" stroke-width="2.2" stroke-linejoin="round">
+    <ellipse cx="320" cy="168" rx="28" ry="34" fill="#f7f4ee"/>
+    <path d="M311 200 h18 v28 h-18 z" fill="#f7f4ee"/>
+    <path d="M222 252 h32 v100 h-32 z" fill="#4e585f"/>
+    <path d="M386 252 h32 v100 h-32 z" fill="#4e585f"/>
+    <path d="M248 246 h144 v112 h-144 z" fill="#5c6b73"/>
+    <path d="M268 384 h104 v200 h-104 z" fill="#cbb892"/>
+    <path d="M276 608 h36 v28 h-36 z" fill="#1e1b16"/>
+    <path d="M328 608 h36 v28 h-36 z" fill="#1e1b16"/>
+  </g>
+  <line x1="236" y1="358" x2="404" y2="358" stroke="#8d3b32" stroke-width="3.5" stroke-linecap="round"/>
+</svg>
